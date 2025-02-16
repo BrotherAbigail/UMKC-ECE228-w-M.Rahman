@@ -1,0 +1,38 @@
+ECE 228 Assignment 1 
+
+**For each of the questions you are required to do both Structural and Dataflow Verilog implementations and show that the outputs match through waveforms. You can use either Xilinx ISE or the free online tools** 
+
+1) For the truth table given below, determine the function and show Verilog implementation; w,x,y, and z are inputs and F is output. 
+
+
+
+|W |X |Y |Z |**F** |
+| - | - | - | - | - |
+|0|0|0|0|**1**|
+|0|0|0|1|**0**|
+|0|0|1|0|**0**|
+|0|0|1|1|**1**|
+|0|1|0|0|**1**|
+|0|1|0|1|**1**|
+|0|1|1|0|**1**|
+|0|1|1|1|**0**|
+|1|0|0|0|**0**|
+|1|0|0|1|**0**|
+|1|0|1|0|**0**|
+|1|0|1|1|**1**|
+|1|1|0|0|**0**|
+|1|1|0|1|**1**|
+|1|1|1|0|**1**|
+|1|1|1|1|**0**|
+
+2) For the following specs, determine the logic circuit capable of implementing the function and then write Verilog codes. For structural verilog implementation you are required to use Full adders and 2:1 multiplexers along with other combinational logic. 
+
+Suppose A is a 8 bit binary number, and B is a 4 bit number. 
+
+If the odd positions in A have odd number of 1s in total // A[1], A[3], A[5] and A[7] has odd ones total 
+
+Then 
+
+Out = A+B Else 
+
+Out = A-B 
